@@ -60,9 +60,26 @@ nav ul li a:hover {
       background-color: white;
       margin: 20px 40px;
       border-radius: 20px;
-      padding: 10px;
+      padding: 10px 20px;
    }
-
+   .chat h5{
+    color:#ff6600 ;
+   }
+   .chat h6{
+    color: Gray;
+   }
+   .chat h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+   }
+   .info{
+    font-weight:600;
+    font-size: 15px;
+   }
+   .input-box{
+    height: 10px;
+    width: 100px;
+   }
 
 @media (min-width: 481px) and (max-width: 700px) {
     nav ul li a {

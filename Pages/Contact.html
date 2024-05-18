@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language Learning Platform-contact_us</title>
     <link rel="stylesheet" href="../CSS/Contact.css">
 </head>
+
 <body>
     <nav>
         <div class="container">
@@ -27,24 +29,44 @@
     </nav>
 
     <div class="fill-info-container">
-     <div class="chat">
-        <h5>Get in Touch</h5>
-        <h2>Lets Chat , Reach Out To Us</h2>
-        <h6>Want to get in touch? We'd love to hear from you. Here's how you can reach us...</h6>
-        <form>
-        <label for="First_name" class="info">First Name</label><br>
-        <input type="text" id="First_name" placeholder="First Name " required class="input-box"><br>
+        <div class="chat">
+            <h5>Get in Touch</h5>
+            <h2>Lets Chat , Reach Out To Us</h2>
+            <h6>Want to get in touch? We'd love to hear from you. Here's how you can reach us... Fill The Below Details.
+            </h6>
+            <form>
+                <div class="inputbox">
+                    <span class="text">First Name :</span><br>
+                    <input type="text" id="inputfirstname" class="input" required="required">
+                </div>
 
-        <label for="last_name" class="info">Last Name</label><br>
-        <input type="text" id="last_name" placeholder="Last Name " required class="input-box" ><br>
+                <div class="inputbox">
+                    <span class="text">Last Name : </span><br>
+                    <input type="text" class="input" required="required">
+                </div>
 
-        <label for="e_address" class="info">Enter E-mail </label><br>
-        <input type="email" id="e_address" placeholder="E-mail address" required class="input-box" ><br>
+                <div class="inputbox">
+                    <span class="text">Enter E-mail :</span><br>
+                    <input type="email" class="input" required="required">
+                </div>
 
-        <label for="message" class="info">Messgae</label><br>
-        <input type="text" id="message" placeholder="Message" class="input-box">
-    </form>
-     </div>
+                <div class="inputbox">
+                    <span class="text">Write Your Message...</span><br>
+                    <input type="text" class="input-desc" required="required">
+                </div>
+
+                <div class="inputbox">
+                    <input type="checkbox" id="policy" class="checkbox" required="required">
+                    <label for="policy" class="pri-policy">I agree to our privacy policy</label>
+                </div>
+
+
+                <div class="inputbox">
+                    <input type="submit" class="submit" value="Send Message" class="submit">
+                </div>
+            </form>
+        </div>
     </div>
 </body>
+
 </html>

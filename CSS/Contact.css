@@ -55,12 +55,14 @@ nav ul li a:hover {
     display: flex;   
    }
    .chat{
-      height: 500px;
-      width: 300px;
+      height: 600px;
+      width: 350px;
       background-color: white;
-      margin: 20px 40px;
+      margin: 15px 35px;
       border-radius: 20px;
       padding: 10px 20px;
+      display: inline;
+      align-items: center;
    }
    .chat h5{
     color:#ff6600 ;
@@ -72,14 +74,48 @@ nav ul li a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
    }
-   .info{
-    font-weight:600;
-    font-size: 15px;
+   .inputbox{
+   margin: 5px;
+   padding: 3px;
    }
-   .input-box{
-    height: 10px;
-    width: 100px;
+   .text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight:700;
+    align-items: left;
    }
+
+   .input{
+    border:1px solid #bfbfbf;
+    border-radius: 5px;
+   }
+
+   .input-desc{
+    height:90px;
+    width: 260px;
+    border:1px solid #bfbfbf;
+    border-radius: 5px;
+   }
+
+   .pri-policy{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500px;
+   }
+
+   .checkbox{
+    cursor: pointer;
+   }
+
+   .submit{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color:#0036b1;
+    color: white;
+   }
+
 
 @media (min-width: 481px) and (max-width: 700px) {
     nav ul li a {

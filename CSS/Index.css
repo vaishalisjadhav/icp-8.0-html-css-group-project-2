@@ -141,3 +141,9 @@ nav ul li a:hover {
     margin-right: 90px;
     border-bottom: solid 2px;
 }
+
+.footer{
+    background-color: #00246b;
+    margin-top: 100px;
+    padding: 90px;
+}

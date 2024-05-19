@@ -55,6 +55,7 @@ nav ul li a:hover {
 .fill-info-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .chat {
@@ -127,6 +128,18 @@ nav ul li a:hover {
 .submit:hover {
     box-shadow: 0px 0px 5px 10px #b3c6ff;
     transition: 0.5s;
+}
+
+/*CSS for Image*/
+.contact-img{
+    height: 300px;
+    margin: 30px;
+    margin-left:-20px;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 0;
+    padding-top: 4px;
+    border-radius: 20px;
 }
 
 

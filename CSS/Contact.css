@@ -55,6 +55,7 @@ nav ul li a:hover {
     text-align: center;
     font-family: serif;
     font-weight: 500;
+    font-size: 20px;
 }
 
 
@@ -139,14 +140,15 @@ nav ul li a:hover {
 
 /*CSS for Image*/
 .contact-img{
-    height: 300px;
+    height: 350px;
+    width: 600px;
     margin: 30px;
     margin-left:-20px;
     margin-top: 10px;
     padding: 10px;
     padding-left: 0;
     padding-top: 4px;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 

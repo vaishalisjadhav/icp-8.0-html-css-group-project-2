@@ -96,13 +96,18 @@ nav ul li a:hover {
     }
 }
 
+.content-container{
+    display: flex;
+    justify-content: space-between;
+}
 
 .content{
-    padding: 90px 80px;
+    margin-top: 70px;
+    margin-left: 90px;
 }
 
 .content h3{
-    font-size: 50px;
+    font-size: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -127,4 +132,12 @@ nav ul li a:hover {
 
 .content button:hover{
     background-color: #0036b1;
+}
+
+.content-image img{
+    height: 500px;
+    width: 500px;
+    margin-top: 30px;
+    margin-right: 90px;
+    border-bottom: solid 2px;
 }

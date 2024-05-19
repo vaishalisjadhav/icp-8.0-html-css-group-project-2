@@ -49,77 +49,82 @@ nav ul li a:hover {
 
 
 
-/*get in touch division*/
+/* chatbox*/
+.fill-info-container {
+    display: flex;
+}
 
-.fill-info-container{
-    display: flex;   
-   }
-   .chat{
-      height: 600px;
-      width: 350px;
-      background-color: white;
-      margin: 15px 35px;
-      border-radius: 20px;
-      padding: 10px 20px;
-      display: inline;
-      align-items: center;
-   }
-   .chat h5{
-    color:#ff6600 ;
-   }
-   .chat h6{
+.chat {
+    height: 600px;
+    width: 350px;
+    background-color: white;
+    margin: 15px 35px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline;
+    align-items: center;
+}
+
+.chat h5 {
+    color: #ff6600;
+}
+
+.chat h6 {
     color: Gray;
-   }
-   .chat h2{
+}
+
+.chat h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-   }
-   .inputbox{
-   margin: 5px;
-   padding: 3px;
-   }
-   .text{
+}
+
+.inputbox {
+    margin: 5px;
+    padding: 3px;
+}
+
+.text {
     display: flex;
     justify-content: space-between;
     font-size: 12px;
-    font-weight:700;
+    font-weight: 700;
     align-items: left;
-   }
+}
 
-   .input{
-    border:1px solid #bfbfbf;
+.input {
+    border: 1px solid #bfbfbf;
     border-radius: 5px;
-   }
+}
 
-   .input-desc{
-    height:90px;
+.input-desc {
+    height: 90px;
     width: 260px;
-    border:1px solid #bfbfbf;
+    border: 1px solid #bfbfbf;
     border-radius: 5px;
-   }
+}
 
-   .pri-policy{
+.pri-policy {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500px;
-   }
+}
 
-   .checkbox{
+.checkbox {
     cursor: pointer;
-   }
+}
 
-   .submit{
+.submit {
     width: 300px;
     height: 30px;
     border-radius: 10px;
     border: none;
-    background-color:#0036b1;
+    background-color: #0036b1;
     color: white;
-   }
+}
 
-   .submit:hover{
+.submit:hover {
     box-shadow: 0px 0px 5px 10px #b3c6ff;
     transition: 0.5s;
-   }
+}
 
 
 @media (min-width: 481px) and (max-width: 700px) {
@@ -127,7 +132,8 @@ nav ul li a:hover {
         font-size: 10px;
         padding: 6px;
     }
-    .logo img{
+
+    .logo img {
         height: 30px;
     }
 }

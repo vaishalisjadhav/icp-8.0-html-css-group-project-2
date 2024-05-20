@@ -92,6 +92,27 @@ nav ul li a:hover {
         height: 30px;
         margin-left: 5px;
     }
+    .content-image img{
+        display: none;
+    }
+    .content-container .content h3{
+        font-size: 40px;
+        margin-right: 80px;
+        text-align: center;
+    }
+    .content-container .content p{
+        margin-right: 80px;
+        text-align: center;
+    }
+    .content button{
+        height: 40px;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        background-color: #00246b;
+        color: #fff;
+        margin-left: 200px;
+    }
 }
 
 /* tablet device */

@@ -192,6 +192,13 @@ nav ul li a:hover {
     font-size: 30px;
 }
 
+.inputbox{
+    margin: 6px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+
 
 
 /*Media queries*/

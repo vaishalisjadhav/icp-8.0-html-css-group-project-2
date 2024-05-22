@@ -184,8 +184,50 @@ nav ul li a:hover {
     margin-right: 90px;
 }
 
-.footer{
-    background-color: #00246b;
+/* .footer{
+    background-color: #;
     margin-top: 100px;
     padding: 90px;
-}
+} */
+
+
+.footer{
+    background:#00246b;
+    margin-top: 100px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:white;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:white;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:grey;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+ }
+   

@@ -52,7 +52,7 @@ nav ul li a:hover {
 
 
 /* chatbox*/
-.fill-info-container {
+.Header {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -60,7 +60,7 @@ nav ul li a:hover {
     height: 300px;
 }
 
-.fill-info-container h1{
+.Header h1{
   color: white;
   font-size: 70px;
   font-weight: 600;
@@ -151,7 +151,7 @@ nav ul li a:hover {
 /*Heading of a page*/
 
 .heading h1{
-    margin-left: 400px;
+    margin-left: -50px;
     margin-top: 20px;
     color: white;
     font-family: satisfy;
@@ -159,10 +159,27 @@ nav ul li a:hover {
 }
 
 .heading h3{
-    margin-left: 400px;
+    margin-left: -50px;
     color: white;
     margin-top: -70px;
     font-weight: 400;
+}
+
+.contact-info-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 25px;
+    margin-top: -30px;
 }
 
 /*Media queries*/

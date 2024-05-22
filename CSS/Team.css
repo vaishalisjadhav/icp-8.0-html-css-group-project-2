@@ -19,6 +19,7 @@ nav {
 
 .logo img {
     height: 50px;
+    margin-left: 50px;
 }
 
 nav ul {
@@ -67,14 +68,14 @@ nav ul li a:hover {
     padding: 90px 80px;
 }
 
-.content h2 span{
+/*.content h2 span{
     font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
     
 }
 
-.content h2{
+/*.content h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:  #00246b;
     font-size: 35px;
@@ -84,9 +85,13 @@ nav ul li a:hover {
     font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(94, 91, 91);
-    font-size: 30px;
-    padding: 80px;
+    font-size: 28px;
+    padding: 120px;
+    width: 80%;
 }
+.content-container p{
+    text-align: center;
+}*/
 
 .content button{
     height: 40px;
@@ -100,16 +105,53 @@ nav ul li a:hover {
 .content button:hover{
     background-color: #0036b1;
 }
+/*.content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: tomato;
+}*/
+
+/* content-container */
 .content-container{
     display: flex;
-    flex-direction: row;
-    justify-content:space-around;
+    flex-direction: column;
+    justify-content: center;
+
 }
+.content-heading h2{
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 40px;
+    color:  #00246b;
+}
+.content-desc{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0 100px 0;
+}
+
+.left-desc{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    padding-left: 40px;
+    margin-left: 50px;
+}
+.right-desc{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(94, 91, 91);
+    width: 70%;
+    padding:10px ;
+    margin-right: 40px;
+}
+
 .card-container{
     display: flex;
-    flex-direction: row;
     justify-content:space-around;
     margin: 80px;
+    height: 150%;
 }
 .card{
     border: solid rgb(94, 91, 91);
@@ -124,8 +166,8 @@ nav ul li a:hover {
     border: solid rgb(94, 91, 91);
     border-radius: 50%;
     position: absolute;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     left: 70px;
     top: -100px;
     
@@ -151,4 +193,7 @@ nav ul li a:hover {
 }
 .profile:hover{
     border: #0036b1 solid;
+}
+.card-container h2{
+    display: block;
 }

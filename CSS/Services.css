@@ -67,6 +67,7 @@ nav ul li a:hover {
     display: inline-block;
     border: 2px solid silver;
     border-radius: 30px;
+    margin: 20px;
 }
 .heading{
     text-align: center;
@@ -95,6 +96,33 @@ nav ul li a:hover {
         margin: 10px;
     }
 }
+@media screen and (min-width: 650px) and (max-width: 950px){
+    .cards{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .services{
+        background-color: white;
+        padding: 5px;
+        height: 700px;
+        width: 300px;
+        display: inline-block;
+        border: 2px solid silver;
+        border-radius: 30px;
+        margin: 20px;
+    }
+    .services:hover{
+        height: 701px;
+        width: 301px;
+        padding: 6px;
+        border: 3px solid silver;
+        border-radius: 31px;
+        box-shadow: 0px 0px 40px 0px #0036b1;
+        transition-duration: 0.5s;
+    }
+}
 @media screen and (min-width: 950px) and (max-width: 1300px){
     .cards{
         display: flex;
@@ -111,6 +139,7 @@ nav ul li a:hover {
         display: inline-block;
         border: 2px solid silver;
         border-radius: 30px;
+        margin: 20px;
     }
     .services:hover{
         height: 451px;

@@ -62,7 +62,7 @@ nav ul li a:hover {
 .services{
     background-color: white;
     padding: 5px;
-    height: 400px;
+    height: 350px;
     width: 300px;
     display: inline-block;
     border: 2px solid silver;
@@ -79,7 +79,7 @@ nav ul li a:hover {
     border: 1px solid silver;
 }
 .services:hover{
-    height: 401px;
+    height: 351px;
     width: 301px;
     padding: 6px;
     border: 3px solid silver;

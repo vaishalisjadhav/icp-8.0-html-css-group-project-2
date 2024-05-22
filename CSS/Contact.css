@@ -166,6 +166,7 @@ nav ul li a:hover {
    margin: 10px;
    height: 500px;
    width: 400px;
+   border-radius: 10px;
 }
 
 .map-chat-container{
@@ -173,6 +174,7 @@ nav ul li a:hover {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 30px;
 }
 
 .chat h4{
@@ -184,8 +186,15 @@ nav ul li a:hover {
     height: 500px;
     width: 400px;
     padding:10px;
+    padding-top: 10px;
     border-radius: 20px;
     padding-left: 25px;
+}
+
+.chat:hover{
+    background-color:#e0ccff ;
+    box-shadow: 0px 0px 30px 5px #e0ccff;
+    transition: 1s;
 }
 
 .chat h2{
@@ -198,8 +207,32 @@ nav ul li a:hover {
     font-weight: 600;
 }
 
+.input{
+    width: 300px;
+}
 
+.input-desc{
+    width: 300px;
+}
 
+.submit{
+    background-color: #0000e6;
+    height: 30px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: none;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.submit:hover{
+    box-shadow: 0px 0px 30px 10px #8080ff;
+    transition: 1s;
+}
 
 /*Media queries*/
 /* small device */

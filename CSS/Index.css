@@ -111,7 +111,7 @@ nav ul li a:hover {
         border: none;
         background-color: #00246b;
         color: #fff;
-        margin-left: 200px;
+        margin-left: 230px;
     }
 }
 
@@ -159,7 +159,7 @@ nav ul li a:hover {
 }
 
 .content p{
-    font-size: 15px;
+    font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(94, 91, 91);
 }
@@ -178,11 +178,10 @@ nav ul li a:hover {
 }
 
 .content-image img{
-    height: 500px;
-    width: 500px;
-    margin-top: 30px;
+    height: 550px;
+    width: 550px;
+    margin-top: 60px;
     margin-right: 90px;
-    border-bottom: solid 2px;
 }
 
 .footer{

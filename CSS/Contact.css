@@ -9,6 +9,7 @@ body {
 nav {
     background-color: #00246b;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid white;
 }
 
 
@@ -55,6 +56,16 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: #00246b;
+    height: 300px;
+}
+
+.fill-info-container h1{
+  color: white;
+  font-size: 70px;
+  font-weight: 600;
+  display: block;
+  text-align: center;
 }
 
 .chat {
@@ -62,7 +73,7 @@ nav ul li a:hover {
     width: 350px;
     background-color: white;
     margin: 15px 35px;
-    margin-top: 40px;
+    margin-top: 440px;
     border-radius: 20px;
     padding: 10px 20px;
     display: inline;
@@ -135,6 +146,21 @@ nav ul li a:hover {
 .submit:hover {
     box-shadow: 0px 0px 5px 10px #b3c6ff;
     transition: 0.5s;
+}
+
+.heading h1{
+    margin-left: 400px;
+    margin-top: 20px;
+    color: white;
+    font-family: satisfy;
+    font-size: 100px;
+}
+
+.heading h3{
+    margin-left: 400px;
+    color: white;
+    margin-top: -70px;
+    font-weight: 400;
 }
 
 

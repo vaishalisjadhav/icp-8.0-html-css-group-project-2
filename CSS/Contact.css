@@ -164,9 +164,14 @@ nav ul li a:hover {
 
 .map{
    margin: 10px;
-   height: 500px;
+   height: 550px;
    width: 400px;
    border-radius: 10px;
+}
+
+.map:hover{
+    box-shadow: 0px 0px 20px 5px gray;
+    transition: 1s;
 }
 
 .map-chat-container{
@@ -183,7 +188,7 @@ nav ul li a:hover {
 
 .chat{
     background-color: white;
-    height: 500px;
+    height: 550px;
     width: 400px;
     padding:10px;
     padding-top: 10px;
@@ -192,8 +197,8 @@ nav ul li a:hover {
 }
 
 .chat:hover{
-    background-color:#e0ccff ;
-    box-shadow: 0px 0px 30px 5px #e0ccff;
+    background-color:#ccccff;
+    box-shadow: 0px 0px 20px 3px gray;
     transition: 1s;
 }
 
@@ -209,10 +214,32 @@ nav ul li a:hover {
 
 .input{
     width: 300px;
+    padding: 3px;
+    border: none;
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.input:hover{
+    box-shadow: 0px 0px 10px gray;
+    background-color: white;
+    transition: 1s;
 }
 
 .input-desc{
     width: 300px;
+    background-color: #e6e6e6;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.input-desc:hover{
+    box-shadow: 0px 0px 10px gray;
+    background-color: white;
+    transition: 1s;
 }
 
 .submit{

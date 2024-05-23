@@ -85,6 +85,7 @@ nav ul li a:hover {
     text-align: center;
     font-size: 30px;
     color:  #00246b;
+    padding-top: 15px;
 }
 .content-desc{
     display: flex;

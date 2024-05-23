@@ -202,3 +202,71 @@ button:hover {
 
 
 }
+/* normal device */
+@media screen and (min-width: 601px) and (max-width: 768px){
+    
+    .login-container{
+        padding:15px;
+    }
+    .login-container h2{
+        font-size: 24px;
+    }
+    button{
+        font-size: 14px;
+    }
+    .btn2{
+        font-size: 14px;
+    }
+    .btn3{
+        font size:14px;
+    }
+}
+
+
+
+
+/* tablet device */
+@media screen and (min-width: 769px) and (max-width: 992px)
+{
+
+.login-container{
+    padding:15px;
+}
+.login-container h2{
+    font-size: 28px;
+}
+button{
+    font-size: 16px;
+}
+.btn2{
+    font-size: 16px;
+}
+.btn3{
+    font size:16px;
+}
+}
+    
+
+
+
+/* large device */
+@media screen and (min-width: 993px) and (max-width: 1200px){
+
+
+
+    .login-container{
+        padding:25px;
+    }
+    .login-container h2{
+        font-size: 32px;
+    }
+    button{
+        font-size: 18px;
+    }
+    .btn2{
+        font-size: 18px;
+    }
+    .btn3{
+        font size:18px;
+    }
+}

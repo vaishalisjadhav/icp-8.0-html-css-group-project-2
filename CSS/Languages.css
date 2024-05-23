@@ -79,6 +79,48 @@ nav {
         text-align: center;
         }
 
+        .btn{
+          color:white;
+          background-color: tomato;
+          font-size: 18px;
+          border-radius: 7px;
+          border: none;
+          margin-left: 70px;
+          padding: 6px 15px 6px 15px;
+          }
+        
+          .span{
+            color:  #00246b;
+           
+           }
+           
+           .span1{
+             color: white;
+             font-size: 30px;
+            
+            }
+        
+          .btn:hover {
+            background-color: #41d463;
+            border: 2px solid #000000;
+            border-radius: 7px;
+          }
+          
+        .card-img {
+          border-radius: 6px 6px 0px 0px;
+        }
+        
+        .container1 {
+        padding: 2px 16px;
+        flex-direction: row;
+        }
+        
+        .card-container{
+          display:flex;
+          justify-content: space-around;
+        }
+        
+
 
 
 

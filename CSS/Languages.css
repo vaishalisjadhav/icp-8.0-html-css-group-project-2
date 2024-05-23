@@ -58,6 +58,26 @@ nav {
     
     }
 
+    .card {
+      box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+      width: 320px;
+      border-radius: 10px;
+      height: 460px;
+      justify-content: center;
+      background-color: white;
+      border-radius: 6px;
+      
+      }
+      
+      .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      border: 2px solid dashed;
+      }
+      
+      .card-heading{
+        font-size: 20px;
+        text-align: center;
+        }
 
 
 

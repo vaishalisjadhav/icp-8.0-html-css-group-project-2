@@ -1,3 +1,233 @@
-body{
-    background-color: #6dcffb;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #cadcfc;
+}
+
+nav {
+    background-color: #00246b;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-size: 15px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #0036b1;
+    border-radius: 7px;
+}
+
+/* small device */
+@media screen and (max-width: 600px) {
+    nav ul li a {
+        font-size: 10px;
+        padding: 6px;
+    }
+
+    .logo img {
+        height: 25px;
+        margin-left: 5px;
+    }
+}
+
+/* normal device */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    nav ul li a {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .logo img {
+        height: 30px;
+        margin-left: 5px;
+    }
+}
+
+/* tablet device */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    nav ul li a {
+        font-size: 15px;
+        padding: 13px;
+    }
+
+    .logo img {
+        height: 40px;
+        margin-left: 5px;
+    }
+}
+
+/* large device */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    nav ul li a {
+        font-size: 17px;
+        padding: 15px;
+    }
+
+    .logo img {
+        height: 40px;
+        margin-left: 5px;
+    }
+}
+
+
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    border-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.form-link {
+    text-align:center;
+    margin-top:10px;
+}
+.form-link span,
+.form-link a{
+     text-decoration:none;
+}
+.form a:hover{
+    text-decoration:underline;
+}
+.gl{
+    height: 35px;
+    width:40px;
+    object-fit: cover;
+    border-radius:50%;
+    position: absolute;
+   align-items: left;
+    padding-left: 0;
+
+
+}
+
+.footer {
+    background: #00246b;
+    margin-top: 100px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: white;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: grey;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
 }

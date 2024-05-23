@@ -229,6 +229,7 @@ nav ul li a:hover {
 
 .input-desc{
     width: 300px;
+    height: 90px;
     background-color: #e6e6e6;
     padding: 3px;
     border-radius: 5px;

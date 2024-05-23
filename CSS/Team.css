@@ -67,32 +67,6 @@ nav ul li a:hover {
 .content{
     padding: 90px 80px;
 }
-
-/*.content h2 span{
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
-    
-}
-
-/*.content h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:  #00246b;
-    font-size: 35px;
-}
-
-.content p{
-    font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(94, 91, 91);
-    font-size: 28px;
-    padding: 120px;
-    width: 80%;
-}
-.content-container p{
-    text-align: center;
-}*/
-
 .content button{
     height: 40px;
     width: 100px;
@@ -101,15 +75,6 @@ nav ul li a:hover {
     background-color: #00246b;
     color: #fff;
 }
-
-/*.content-container{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    background-color: tomato;
-}*/
-
-/* content-container */
 .content-container{
     display: flex;
     flex-direction: column;
@@ -142,57 +107,6 @@ nav ul li a:hover {
     padding:10px ;
     margin-right: 40px;
 }
-
-/* .card-container{
-    display: flex;
-    justify-content:space-around;
-    margin: 80px;
-    height: 150%;
-}
-.card{
-    border: solid rgb(94, 91, 91);
-    height: 350px;
-    width: 400px;
-    border-radius: 10px;
-    display:inline-block;
-    position: relative;
-    margin: 15px;
-}
-.profile{
-    border: solid rgb(94, 91, 91);
-    border-radius: 50%;
-    position: absolute;
-    height: 180px;
-    width: 180px;
-    left: 70px;
-    top: -100px;
-    
-}
-.name{
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
-    text-align: center;
-    padding-top: 60px ;
-}
-.role{
-    color: rgb(94, 91, 91);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-
-}
-.card:hover{
-    border: #0036b1 solid;
-}
-.profile:hover{
-    border: #0036b1 solid;
-}
-.card-container h2{
-    display: block;
-} */
 
 .name{
     text-align: center;

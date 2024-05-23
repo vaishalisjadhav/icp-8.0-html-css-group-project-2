@@ -52,7 +52,8 @@ nav ul li a:hover {
         font-size: 10px;
         padding: 6px;
     }
-    .logo img{
+
+    .logo img {
         height: 30px;
     }
 }
@@ -64,10 +65,12 @@ nav ul li a:hover {
     }
 
 }
-.content{
+
+.content {
     padding: 90px 80px;
 }
-.content button{
+
+.content button {
     height: 40px;
     width: 100px;
     border-radius: 10px;
@@ -75,41 +78,45 @@ nav ul li a:hover {
     background-color: #00246b;
     color: #fff;
 }
-.content-container{
+
+.content-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
-.content-heading h2{
+
+.content-heading h2 {
     text-align: center;
     font-size: 30px;
-    color:  #00246b;
+    color: #00246b;
     padding-top: 15px;
 }
-.content-desc{
+
+.content-desc {
     display: flex;
     justify-content: space-evenly;
     margin: 50px 0 100px 0;
 }
 
-.left-desc{
+.left-desc {
     font-size: 45px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
     padding-left: 40px;
     margin-left: 50px;
 }
-.right-desc{
+
+.right-desc {
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(94, 91, 91);
     width: 70%;
-    padding:10px ;
+    padding: 10px;
     margin-right: 40px;
 }
 
-.name{
+.name {
     text-align: center;
     padding: 10px 0 10px 0;
     margin-top: 100px;
@@ -117,18 +124,19 @@ nav ul li a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 0);
 }
+
 .role {
     text-align: center;
     font-size: 18px;
     margin-top: 0;
-    padding-top:-10 ;
+    padding-top: -10;
     color: rgb(82, 80, 80);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .profile {
     border: none;
-    background-color:  #012e88;
+    background-color: #012e88;
     position: absolute;
     left: 50px;
     top: -80px;
@@ -140,25 +148,30 @@ nav ul li a:hover {
     height: 150px;
     width: 140px;
 }
-.media-button{
+
+.media-button {
     size: 50px;
     border-radius: 50%;
     border: none;
     cursor: pointer;
-    
+
 }
-.media-button:hover{
+
+.media-button:hover {
     border: solid rgb(78, 78, 78);
     transition: 0.1s;
 }
-.socialmedia{
+
+.socialmedia {
     display: flex;
     justify-content: space-around;
 }
+
 .instaimg {
     height: 50px;
     border-radius: 50%;
 }
+
 .linkedimg {
     height: 50px;
     border-radius: 50%;
@@ -175,7 +188,8 @@ nav ul li a:hover {
     box-shadow: 0 0 30px #808080;
     cursor: pointer;
 }
-.card:hover{
+
+.card:hover {
     border: 1.5px solid #012e88;
 }
 
@@ -196,57 +210,60 @@ nav ul li a:hover {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.footer{
-    background:#00246b;
+
+.footer {
+    background: #00246b;
     margin-top: 100px;
     padding: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align:center;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: grey;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
     }
-    
-    .footer .row{
-    width:100%;
-    margin:1% 0%;
-    padding:0.6% 0%;
-    color:white;
-    font-size:0.8em;
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
     }
-    
-    .footer .row a{
-    text-decoration:none;
-    color:white;
-    transition:0.5s;
+
+    .footer .row a i {
+        margin: 0% 3%;
     }
-    
-    .footer .row a:hover{
-    color:grey;
-    }
-    
-    .footer .row ul{
-    width:100%;
-    }
-    
-    .footer .row ul li{
-    display:inline-block;
-    margin:0px 30px;
-    }
-    
-    .footer .row a i{
-    font-size:2em;
-    margin:0% 1%;
- }
-   
-@media (max-width:720px){
-    .footer{
-    text-align:left;
-    padding:5%;
-    }
-    .footer .row ul li{
-    display:block;
-    margin:10px 0px;
-    text-align:left;
-    }
-    .footer .row a i{
-    margin:0% 3%;
-    }
-    }
+}

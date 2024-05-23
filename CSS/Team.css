@@ -215,10 +215,10 @@ nav ul li a:hover {
     border: none;
     background-color:  #012e88;
     position: absolute;
-    left: 40px;
+    left: 50px;
     top: -80px;
     border-radius: 50%;
-    padding: 12px;
+    padding: 8px;
     font-size: 20px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -258,6 +258,7 @@ nav ul li a:hover {
     border-radius: 10px;
     margin: 50px 15px 50px 15px;
     box-shadow: 0 0 30px #808080;
+    cursor: pointer;
 }
 .card:hover{
     border: 1.5px solid #012e88;
@@ -280,6 +281,57 @@ nav ul li a:hover {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.card:hover{
+.footer{
+    background:#00246b;
+    margin-top: 100px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    }
     
-}
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:white;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:white;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:grey;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+ }
+   
+@media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }

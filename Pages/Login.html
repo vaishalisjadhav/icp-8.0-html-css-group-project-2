@@ -5,25 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language Learning Platform</title>
     <link rel="stylesheet" href="../CSS/Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav>
-<div class="container">
- <div class="logo">
- <img src="Images/language-learning.png" alt="Logo">
- </div> <ul>
- <li><a href="Index.html">Home</a></li>
- <li><a href="Pages/Languages.html">Languages</a></li>
- <li><a href="Pages/Pricing.html">Price</a></li>
- <li><a href="Pages/Services.html">Services</a></li>
-<li><a href="Pages/Contact.html">Contact</a></li>
-<li><a href="Pages/Team.html">Team</a></li>
-<li><a href="Pages/Review.html">Review</a></li>
-<li><a href="Pages/Signup.html">Signup</a></li>
- <li><a href="Pages/Login.html">Login</a></li>
-</ul>
- </div>
- </nav>
+    
+
     <div class="login-container">
         <h2>Login</h2>
         <form action="#" method="post">
@@ -35,11 +21,16 @@
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
             </div>
+            <div  class="form-link">
+                <a href="a" class="forget pass">forget password?</a><br><br>
+            </div>
             
       <button type="submit"> Login  </button></br></br>
-      <button type="submit"  class="btn2"> 
+      <div  class="form-link"> <span>Not registered?<a  href="a"  class ="create acc"> Create an account</a></span></div><br>
+            
+      <button type="submit"  class="btn2"> <i class="fa-brands fa-facebook"   class="gl"></i>&nbsp;&nbsp; 
         Login with Facebook</button></br></br>
-          <button type="submit"  class="btn3">Login with Google</button>
+          <button type="submit"  class="btn3"><i class="fa-brands fa-google"  class="gl"></i>&nbsp;&nbsp;&nbsp; Login with Google</button>
           
           
 

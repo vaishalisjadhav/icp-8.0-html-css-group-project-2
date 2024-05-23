@@ -67,32 +67,6 @@ nav ul li a:hover {
 .content{
     padding: 90px 80px;
 }
-
-/*.content h2 span{
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
-    
-}
-
-/*.content h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:  #00246b;
-    font-size: 35px;
-}
-
-.content p{
-    font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(94, 91, 91);
-    font-size: 28px;
-    padding: 120px;
-    width: 80%;
-}
-.content-container p{
-    text-align: center;
-}*/
-
 .content button{
     height: 40px;
     width: 100px;
@@ -101,18 +75,6 @@ nav ul li a:hover {
     background-color: #00246b;
     color: #fff;
 }
-
-.content button:hover{
-    background-color: #0036b1;
-}
-/*.content-container{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    background-color: tomato;
-}*/
-
-/* content-container */
 .content-container{
     display: flex;
     flex-direction: column;
@@ -120,10 +82,10 @@ nav ul li a:hover {
 
 }
 .content-heading h2{
-    /* justify-content: center; */
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color:  #00246b;
+    padding-top: 15px;
 }
 .content-desc{
     display: flex;
@@ -132,14 +94,14 @@ nav ul li a:hover {
 }
 
 .left-desc{
-    font-size: 50px;
+    font-size: 45px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
     padding-left: 40px;
     margin-left: 50px;
 }
 .right-desc{
-    font-size: 30px;
+    font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(94, 91, 91);
     width: 70%;
@@ -147,53 +109,144 @@ nav ul li a:hover {
     margin-right: 40px;
 }
 
-.card-container{
-    display: flex;
-    justify-content:space-around;
-    margin: 80px;
-    height: 150%;
+.name{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
 }
-.card{
-    border: solid rgb(94, 91, 91);
-    height: 350px;
-    width: 400px;
-    border-radius: 10px;
-    display:inline-block;
-    position: relative;
-    margin: 15px;
+.role {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0;
+    padding-top:-10 ;
+    color: rgb(82, 80, 80);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.profile{
-    border: solid rgb(94, 91, 91);
-    border-radius: 50%;
+
+.profile {
+    border: none;
+    background-color:  #012e88;
     position: absolute;
-    height: 180px;
-    width: 180px;
-    left: 70px;
-    top: -100px;
+    left: 50px;
+    top: -80px;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 150px;
+    width: 140px;
+}
+.media-button{
+    size: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
     
 }
-.name{
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
-    text-align: center;
-    padding-top: 60px ;
+.media-button:hover{
+    border: solid rgb(78, 78, 78);
+    transition: 0.1s;
 }
-.role{
-    color: rgb(94, 91, 91);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+.socialmedia{
+    display: flex;
+    justify-content: space-around;
+}
+.instaimg {
+    height: 50px;
+    border-radius: 50%;
+}
+.linkedimg {
+    height: 50px;
+    border-radius: 50%;
+}
 
+.card {
+    position: relative;
+    height: 280px;
+    width: 250px;
+    background-color: #fbf7f7;
+    border: none;
+    border-radius: 10px;
+    margin: 50px 15px 50px 15px;
+    box-shadow: 0 0 30px #808080;
+    cursor: pointer;
 }
 .card:hover{
-    border: #0036b1 solid;
+    border: 1.5px solid #012e88;
 }
-.profile:hover{
-    border: #0036b1 solid;
+
+.card-image {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px 10px 0 0;
 }
-.card-container h2{
-    display: block;
+
+.btn {
+    margin-left: 80px;
+    border-radius: 50px;
+    padding: 10px 20px;
 }
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer{
+    background:#00246b;
+    margin-top: 100px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:white;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:white;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:grey;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+ }
+   
+@media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }

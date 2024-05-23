@@ -61,18 +61,18 @@ nav ul li a:hover {
     height: 300px;
 }
 
-.Header h1{
-  color: white;
-  font-size: 70px;
-  font-weight: 600;
-  display: block;
-  text-align: center;
+.Header h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
 }
 
 
 /*Heading of a page*/
 
-.heading h1{
+.heading h1 {
     margin-left: -50px;
     margin-top: 20px;
     color: white;
@@ -80,20 +80,20 @@ nav ul li a:hover {
     font-size: 100px;
 }
 
-.heading h3{
+.heading h3 {
     margin-left: -50px;
     color: white;
     margin-top: -70px;
     font-weight: 400;
 }
 
-.contact-info-cards{
+.contact-info-cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.contact-card{
+.contact-card {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -107,44 +107,44 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-.contact-card:hover{
+.contact-card:hover {
     box-shadow: 0px 0px 20px 10px #a6a6a6;
     transition: 1s;
 }
 
-.contact-card h3{
+.contact-card h3 {
     color: black;
     margin-top: 90px;
-    margin-left:-190px;
+    margin-left: -190px;
 }
 
-.email-head{
+.email-head {
     color: black;
     margin-top: 90px;
-    margin-right:-180px;
-} 
+    margin-right: -180px;
+}
 
-.address-img{
+.address-img {
     height: 90px;
-    margin-left:25px;
+    margin-left: 25px;
     margin-top: -5px;
 }
 
-.call-img{
+.call-img {
     height: 90px;
-    margin-left:25px;
+    margin-left: 25px;
     margin-top: -5px;
 }
 
-.email-img{
+.email-img {
     height: 90px;
     margin-right: -150;
     margin-top: -5px;
 }
 
-.contact-card h4{
+.contact-card h4 {
     font-size: 15px;
-    margin:-5px;
+    margin: -5px;
     margin-top: -30px;
     text-align: center;
     font-size: 13.5px;
@@ -152,9 +152,9 @@ nav ul li a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.email-text{
-    margin-top:130px;
-    margin-left:40px;
+.email-text {
+    margin-top: 130px;
+    margin-left: 40px;
     font-size: 15px;
     text-align: center;
     font-size: 13.5px;
@@ -162,57 +162,58 @@ nav ul li a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.map{
-   margin: 10px;
-   height: 550px;
-   width: 400px;
-   border-radius: 10px;
+.map {
+    margin: 10px;
+    height: 550px;
+    width: 400px;
+    border-radius: 10px;
 }
 
-.map:hover{
+.map:hover {
     box-shadow: 0px 0px 20px 5px gray;
     transition: 1s;
 }
 
-.map-chat-container{
+.map-chat-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
 }
 
-.chat h4{
+.chat h4 {
     color: #ff6600;
 }
 
-.chat{
+.chat {
     background-color: white;
     height: 550px;
     width: 400px;
-    padding:10px;
+    padding: 10px;
     padding-top: 10px;
     border-radius: 20px;
     padding-left: 25px;
 }
 
-.chat:hover{
-    background-color:#ccccff;
+.chat:hover {
+    background-color: #ccccff;
     box-shadow: 0px 0px 20px 3px gray;
     transition: 1s;
 }
 
-.chat h2{
+.chat h2 {
     font-size: 30px;
 }
 
-.inputbox{
+.inputbox {
     margin: 6px;
     font-family: poppins;
     font-weight: 600;
 }
 
-.input{
+.input {
     width: 300px;
     padding: 3px;
     border: none;
@@ -221,13 +222,13 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-.input:hover{
+.input:hover {
     box-shadow: 0px 0px 10px gray;
     background-color: white;
     transition: 1s;
 }
 
-.input-desc{
+.input-desc {
     width: 300px;
     height: 90px;
     background-color: #e6e6e6;
@@ -237,13 +238,13 @@ nav ul li a:hover {
 }
 
 
-.input-desc:hover{
+.input-desc:hover {
     box-shadow: 0px 0px 10px gray;
     background-color: white;
     transition: 1s;
 }
 
-.submit{
+.submit {
     background-color: #0000e6;
     height: 30px;
     width: 300px;
@@ -257,7 +258,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
-.submit:hover{
+.submit:hover {
     box-shadow: 0px 0px 30px 10px #8080ff;
     transition: 1s;
 }
@@ -274,18 +275,68 @@ nav ul li a:hover {
         height: 25px;
         margin-left: 5px;
     }
-}
 
-/* normal device */
-@media screen and (min-width: 601px) and (max-width: 768px) {
-    nav ul li a {
-        font-size: 13px;
-        padding: 7px;
+    .heading h1 {
+        font-size: 60px;
     }
 
-    .logo img {
-        height: 30px;
-        margin-left: 5px;
+
+    .chat h2 {
+        font-size: 20px;
+    }
+
+    .heading h3 {
+        margin-top: -40px;
+        margin-left: 3px;
+    }
+
+    .Header {
+        height: 200px;
+    }
+
+    .email-img {
+        margin-right: 60px;
+    }
+
+    .email-text {
+        margin-top: -30px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .email-head {
+        margin-right: 20px;
+    }
+
+    .contact-card {
+        height: 150px;
+        width: 150px;
+        margin: 20px;
+        margin-top: -25px;
+        padding: 3px;
+    }
+
+    .map {
+        margin: 5px;
+        height: 500px;
+        width: 350px;
+    }
+
+    .chat {
+        height: 500px;
+        width: 350px;
+        padding: 5px;
+        margin-top: 40px;
+        margin: 5px;
+    }
+
+    .contact-card h3 {
+        margin-left: -160px;
+        font-size: 15px;
+    }
+
+    .contact-card h4 {
+        font-size: 13px;
     }
 }
 
@@ -300,6 +351,101 @@ nav ul li a:hover {
         height: 40px;
         margin-left: 5px;
     }
+
+    .email-head {
+        color: black;
+        margin-top: 90px;
+        margin-right: -190px;
+    }
+
+
+}
+
+/* normal device */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    nav ul li a {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .logo img {
+        height: 30px;
+        margin-left: 5px;
+    }
+
+    .heading h1 {
+        font-size: 80px;
+    }
+
+    .heading h3 {
+        margin-left: 5px;
+    }
+
+    .Header {
+        height: 250px;
+    }
+
+    .email-img {
+        margin-right: 60px;
+    }
+
+    .email-text {
+        margin-top: -30px;
+        margin-left: 10px;
+    }
+
+    .email-head {
+        margin-right: 20px;
+    }
+
+    .contact-card {
+        height: 200px;
+        width: 150px;
+        margin: 20px;
+        margin-top: -25px;
+        padding: 3px;
+    }
+
+    .map {
+        margin: 5px;
+        height: 500px;
+        width: 350px;
+    }
+
+    .chat {
+        height: 500px;
+        width: 350px;
+        padding: 5px;
+        margin-top: 40px;
+    }
+
+    .contact-card h3 {
+        margin-left: -160px;
+        font-size: 15px;
+    }
+
+    .contact-card h4 {
+        font-size: 13px;
+    }
+}
+
+/* tablet device */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    nav ul li a {
+        font-size: 15px;
+        padding: 13px;
+    }
+
+    .logo img {
+        height: 40px;
+        margin-left: 5px;
+    }
+
+    .email-head {
+        color: black;
+        margin-top: 90px;
+        margin-right: -190px;
+    }
 }
 
 /* large device */
@@ -312,5 +458,19 @@ nav ul li a:hover {
     .logo img {
         height: 40px;
         margin-left: 5px;
+    }
+
+    .heading h3 {
+        margin-left: 60px;
+    }
+
+    .contact-card h3 {
+        color: black;
+        margin-top: 90px;
+        margin-left: -160px;
+    }
+
+    .address-img {
+        height: 110px;
     }
 }

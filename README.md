@@ -15,7 +15,27 @@
 8. Signup Page 
 9. Login Page
 ---
+## Home Page
 ![home page](/Images/homepage.png)
+
+## Languages Page
+![Language Page](/Images/language.png)
+
+## Price Page
+![Price Page](/Images/price.png)
+
+## Contact Page
+![Contact Page](/Images/contact.png)
+
+## Team Page
+![Team Page](/Images/team.png)
+
+## Signup Page
+![Signup Page](/Images/signup.png)
+
+## Login Page
+![Login Page](/Images/login.png)
+
 ## How To Use :
 ### For a seamless learning experience , you can visit our website at https://online-language-learning.netlify.app
 ---

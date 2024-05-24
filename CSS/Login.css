@@ -46,6 +46,20 @@ nav ul li a:hover {
     background-color: #0036b1;
     border-radius: 7px;
 }
+nav span{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+nav span:hover{
+    color: #cadcfc;
+}
+
+.container .logo{
+    display: flex;
+}
 
 /* small device */
 @media screen and (max-width: 600px) {
@@ -139,7 +153,7 @@ button {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     background-color: #007bff;
     border-color: black;
     color: white;
@@ -155,7 +169,7 @@ button:hover {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     border-color: black;
     background-color: #1621eeeb;
     color: white;
@@ -169,7 +183,7 @@ button:hover {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     border-color: black;
     background-color: white;
     color: black;
@@ -179,6 +193,9 @@ button:hover {
     border-color:rgb(239, 247, 255);
 
 
+}
+.btn3:hover {
+    color:white;
 }
 .form-link {
     text-align:center;

@@ -48,6 +48,20 @@ nav ul li a:hover {
     background-color: #0036b1;
     border-radius: 7px;
 }
+nav span{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+nav span:hover{
+    color: #cadcfc;
+}
+
+.container .logo{
+    display: flex;
+}
 .container{
     font-size: 20px;
     color: #00246b;
@@ -82,7 +96,7 @@ nav ul li a:hover {
     border: 1px solid silver;
 }
 /*small screen*/
-@media screen and (min-width: 100px) and (max-width: 850px){
+@media screen and (min-width: 300px) and (max-width: 650px){
     .cards{
         display: flex;
         flex-direction: column;
@@ -92,7 +106,7 @@ nav ul li a:hover {
     }
 }
 /*medium screen*/
-@media screen and (min-width:850px) and (max-width:1050) {
+@media screen and (min-width:650px) and (max-width:1050) {
     .cards{
         display: flex;
         flex-wrap: wrap;

@@ -1,12 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Language Learning Platform</title>
-    <link rel="stylesheet" href="../CSS/review.css">
+    <title>Student Reviews</title>
+    <link rel="stylesheet" href="../CSS/Review.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+<body> 
+        
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <img src="../Images/language-learning.png" alt="Logo">
+                </div>
+                <ul>
+                    <li><a href="../Index.html">Home</a></li>
+                    <li><a href="..Pages/Languages.html">Languages</a></li>
+                    <li><a href="..Pages/Pricing.html">Price</a></li>
+                    <li><a href="..Pages/Services.html">Services</a></li>
+                    <li><a href="..Pages/Contact.html">Contact</a></li>
+                    <li><a href="..Pages/Team.html">Team</a></li>
+                    <li><a href="Pages/Review.html">Review</a></li>
+                    <li><a href="..Pages/Signup.html">Signup</a></li>
+                    <li><a href="..Pages/Login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    <main>
+        <section class="review-form">
+            <h2>Submit Your Review</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="course">Course:</label>
+                <input type="text" id="course" name="course" required>
+                
+                <label for="rating">Rating:</label><br>
+                <select id="rating" name="rating" required>
+                    <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Very Good</option>
+                    <option value="3">3 - Good</option>
+                    <option value="2">2 - Fair</option>
+                    <option value="1">1 - Poor</option>
+                </select>
+                
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" rows="4" required></textarea> 
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <div class="review-container">
+            <section class="reviews">
+                <h2>Student Reviews</h2>
+            <div class="review">
+                <h3>Yuvanshi jadhao</h3>
+                <p>Course:English </p>
+                <p>Rating: <span class="rating">★★★★★</span></p>
+                <p>"This course was fantastic! The instructor was very knowledgeable."</p>
+            </div>
+            <div class="review">
+                <h3>Bhumika jibhakate</h3>
+                <p>Course:spanish</p>
+                <p>Rating: <span class="rating">★★★★☆</span></p>
+                <p>"I learned a lot from this course, but it could use more interactive exercises."</p>
+            </div>
+                
+                <div class="review">
+                    <h3>tenali bute</h3>
+                    <p>Course:German</p>
+                    <p>Rating: <span class="rating">★★☆☆☆</span></p>
+                    <p>" You have made some good progress, but it would be good to see you focusing harder on the assignment question."</p>
+                </div>      
+            </div>   
+        </section>
+    </main>
 </body>
+<footer>
+    <div class="footer">
+        <div class="row">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <div class="row">
+            <ul>
+                <li><a href="./Pages/Contact.html">Contact us</a></li>
+                <li><a href="./Pages/Services.html">Our Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Career</a></li>
+            </ul>
+        </div>
+
+        <div class="row">
+            Copyright © 2024 - All rights reserved
+        </div>
+    </div>
+    </footer>
 </html>

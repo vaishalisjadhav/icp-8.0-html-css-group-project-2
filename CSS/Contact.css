@@ -91,6 +91,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contact-card {
@@ -265,7 +266,7 @@ nav ul li a:hover {
 
 /*Media queries*/
 /* small device */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
     nav ul li a {
         font-size: 10px;
         padding: 6px;
@@ -275,6 +276,7 @@ nav ul li a:hover {
         height: 25px;
         margin-left: 5px;
     }
+
 
     .heading h1 {
         font-size: 60px;
@@ -315,6 +317,21 @@ nav ul li a:hover {
         margin-top: -25px;
         padding: 3px;
     }
+
+    
+
+    .contact-card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 150px;
+        width: 150px;
+        margin: 20px;
+        margin-top: -25px;
+        padding: 3px;
+    }
+    
 
     .map {
         margin: 5px;
@@ -472,5 +489,62 @@ nav ul li a:hover {
 
     .address-img {
         height: 110px;
+    }
+}
+
+.footer {
+    background: #00246b;
+    margin-top: 100px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: white;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: grey;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
     }
 }

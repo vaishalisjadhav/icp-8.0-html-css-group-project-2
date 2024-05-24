@@ -22,15 +22,8 @@ nav {
     margin-left: 20px;
 }
 
-nav span {
-    color: #fff;
-    font-size: 15px;
-    margin-top: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-    position: relative;
-    bottom: 20px;
-}
+position: relative;
+            bottom: 20px;
 
 nav span:hover {
     color: #cadcfc;
@@ -64,25 +57,6 @@ nav ul li a:hover {
     background-color: #0036b1;
     border-radius: 7px;
 }
-
-/* @media (min-width: 481px) and (max-width: 700px) {
-    nav ul li a {
-        font-size: 10px;
-        padding: 6px;
-    }
-
-    .logo img {
-        height: 30px;
-    }
-} */
-
-/* @media (min-width: 701px) and (max-width:1024px) {
-    nav ul li a {
-        font-size: 15px;
-        padding: 10px;
-    }
-
-} */
 
 .content {
     padding: 90px 80px;

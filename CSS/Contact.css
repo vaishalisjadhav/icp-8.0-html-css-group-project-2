@@ -264,9 +264,51 @@ nav ul li a:hover {
     transition: 1s;
 }
 
+nav span{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+nav span:hover{
+    color: #cadcfc;
+}
+
+.container .logo{
+    display: flex;
+}
+
 /*Media queries*/
+@media screen and (min-width: 300px) and (max-width: 650px) {
+    .heading h1 {
+        font-size: 40px;
+    }
+
+    .heading h3 {
+        margin-top: -40px;
+        margin-left: 8px;
+        font-size: 17px;
+    }
+
+    .map {
+        margin: 5px;
+        height: 450px;
+        width: 300px;
+        margin-bottom:-40px;
+    }
+
+    .chat {
+        height: 450px;
+        width: 300px;
+        padding: 5px;
+        margin-top: 40px;
+        margin: 5px;
+    }
+}
+
 /* small device */
-@media screen and (max-width: 300px) {
+@media screen and (max-width:600px) {
     nav ul li a {
         font-size: 10px;
         padding: 6px;
@@ -311,16 +353,6 @@ nav ul li a:hover {
     }
 
     .contact-card {
-        height: 150px;
-        width: 150px;
-        margin: 20px;
-        margin-top: -25px;
-        padding: 3px;
-    }
-
-    
-
-    .contact-card {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -328,7 +360,7 @@ nav ul li a:hover {
         height: 150px;
         width: 150px;
         margin: 20px;
-        margin-top: -25px;
+        margin-bottom:40px;
         padding: 3px;
     }
     

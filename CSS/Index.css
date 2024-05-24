@@ -9,6 +9,20 @@ nav {
     background-color: #00246b;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+nav span{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+nav span:hover{
+    color: #cadcfc;
+}
+
+.container .logo{
+    display: flex;
+}
 
 .container {
     display: flex;

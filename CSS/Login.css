@@ -139,7 +139,7 @@ button {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     background-color: #007bff;
     border-color: black;
     color: white;
@@ -155,7 +155,7 @@ button:hover {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     border-color: black;
     background-color: #1621eeeb;
     color: white;
@@ -169,7 +169,7 @@ button:hover {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     border-color: black;
     background-color: white;
     color: black;
@@ -179,6 +179,9 @@ button:hover {
     border-color:rgb(239, 247, 255);
 
 
+}
+.btn3:hover {
+    color:white;
 }
 .form-link {
     text-align:center;

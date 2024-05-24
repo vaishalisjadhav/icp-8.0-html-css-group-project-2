@@ -50,6 +50,20 @@ nav ul li a:hover {
     border-radius: 7px;
 }
 
+nav span{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+nav span:hover{
+    color: #cadcfc;
+}
+
+.container .logo{
+    display: flex;
+}
 
 /* chatbox*/
 .Header {
@@ -264,20 +278,6 @@ nav ul li a:hover {
     transition: 1s;
 }
 
-nav span{
-    color: #fff;
-    font-size: 15px;
-    margin-top: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-}
-nav span:hover{
-    color: #cadcfc;
-}
-
-.container .logo{
-    display: flex;
-}
 
 /*Media queries*/
 @media screen and (min-width: 300px) and (max-width: 650px) {

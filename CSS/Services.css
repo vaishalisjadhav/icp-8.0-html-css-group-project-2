@@ -107,7 +107,7 @@ nav ul li a:hover {
     .cards{
         display: flex;
         flex-wrap: wrap;
-        justify-content: start;
+        justify-content: space-evenly;
         align-items: center;
         margin: 5px;
         padding: 5px;

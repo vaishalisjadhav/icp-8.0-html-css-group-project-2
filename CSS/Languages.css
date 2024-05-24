@@ -85,7 +85,7 @@ nav {
           font-size: 18px;
           border-radius: 7px;
           border: none;
-          margin-left: 60px;
+          margin-left: 70px;
           padding: 6px 15px 6px 15px;
           }
         
@@ -96,7 +96,7 @@ nav {
            
            .span1{
              color: white;
-             font-size: 25px;
+             font-size: 30px;
             
             }
         
@@ -118,6 +118,7 @@ nav {
         .card-container{
           display:flex;
           justify-content: space-around;
+          flex-wrap: wrap;
         }
 
          .bg-img{
@@ -141,18 +142,18 @@ nav {
         
         
         .page-footer{
-          background-color: rgb(253, 253, 131);
+          color:black;
           border-radius: 6px;
-          font-size: 30px;
+          font-size: 20px;
           text-align: center;
-          width: 800px;
-          margin-left: 330px;
+          width: 300px;
+          
         }
         
         
         
         .learn{
-          position: static;
+          
           top: 40px;
         }
         
@@ -172,6 +173,29 @@ nav {
       height: 25px;
       margin-left: 5px;
   }
+
+  .page-footer{
+    
+    border-radius: 6px;
+    font-size: 20px;
+    color: black
+    }
+
+    .card {
+      box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+      width: 300px;
+      border-radius: 10px;
+      height: 440px;
+      justify-content: center;
+      background-color: white;
+      border-radius: 6px;
+      margin-top: 20px;
+      }
+
+ .bg-img{
+  display: none;
+ }
+
 }
 
 /* normal device */
@@ -184,6 +208,27 @@ nav {
       height: 30px;
       margin-left: 5px;
   }
+  .page-footer{
+    
+    border-radius: 6px;
+    font-size: 20px;
+    }
+
+    .card {
+      box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+      width: 300px;
+      border-radius: 10px;
+      height: 440px;
+      justify-content: center;
+      background-color: white;
+      border-radius: 6px;
+      margin-top: 20px;
+      }
+
+      .bg-img{
+        display: none;
+       }
+
 }
 
 /* tablet device */
@@ -196,6 +241,27 @@ nav {
       height: 40px;
       margin-left: 5px;
   }
+  .page-footer{
+    
+    border-radius: 6px;
+    font-size: 20px;
+    }
+
+    .bg-img{
+      display: none;
+    }
+
+    .card {
+      box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+      width: 300px;
+      border-radius: 10px;
+      height: 440px;
+      justify-content: center;
+      background-color: white;
+      border-radius: 6px;
+      margin-top: 20px;
+      }
+
 }
 
 /* large device */
@@ -208,6 +274,24 @@ nav {
       height: 40px;
       margin-left: 5px;
   }
+  .page-footer{
+    
+    border-radius: 6px;
+    font-size: 20px;
+     }
+
+     .card {
+      box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+      width: 300px;
+      border-radius: 10px;
+      height: 440px;
+      justify-content: center;
+      background-color: white;
+      border-radius: 6px;
+      margin-top: 20px;
+      }
+
+
 }
 
 

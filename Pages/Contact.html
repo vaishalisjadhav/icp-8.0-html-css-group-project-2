@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language Learning Platform-contact_us</title>
     <link rel="stylesheet" href="../CSS/Contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -21,14 +26,14 @@
 
             <ul>
                 <li><a href="../Index.html" target="_blank">Home</a></li>
-                <li><a href="../Pages/Languages.html" target="_blank">Languages</a></li>
-                <li><a href="../Pages/Pricing.html" target="_blank">Price</a></li>
-                <li><a href="../Pages/Services.html" target="_blank">Services</a></li>
+                <li><a href="./Languages.html" target="_blank">Languages</a></li>
+                <li><a href="./Pricing.html" target="_blank">Price</a></li>
+                <li><a href="./Services.html" target="_blank">Services</a></li>
                 <li><a href="Contact.html" target="_blank">Contact</a></li>
-                <li><a href="../Pages/Team.html" target="_blank">Team</a></li>
-                <li><a href="../Pages/Review.html" target="_blank">Review</a></li>
-                <li><a href="../Pages/Signup.html" target="_blank">Signup</a></li>
-                <li><a href="../Pages/Login.html" target="_blank">Login</a></li>
+                <li><a href="./Team.html" target="_blank">Team</a></li>
+                <li><a href="./Review.html" target="_blank">Review</a></li>
+                <li><a href="./Signup.html" target="_blank">Signup</a></li>
+                <li><a href="./Login.html" target="_blank">Login</a></li>
             </ul>
         </div>
     </nav>
@@ -46,19 +51,19 @@
     <div class="contact-info-cards">
 
         <div class="contact-card">
-            <img src="../Images/address.png" height="70px" alt="address" class="address-img" /><br>
+            <img src="../Images/contact img/address.png" height="70px" alt="address" class="address-img" /><br>
             <h3>Our Main Office</h3>
             <h4>Near ABC building ,Kothrud,Pune 412207 </h4>
         </div>
 
         <div class="contact-card">
-            <img src="../Images/call.png" height="70px" alt="call" class="call-img" /><br>
+            <img src="../Images/contact img/call.png" height="70px" alt="call" class="call-img" /><br>
             <h3>Phone Number</h3>
             <h4>234-9876-5400 888-0123-4567(Toll Free)</h4>
         </div>
 
         <div class="contact-card">
-            <img src="../Images/email.png" height="70px" alt="E-mail" class="email-img" /><br>
+            <img src="../Images/contact img/email.png" height="70px" alt="E-mail" class="email-img" /><br>
             <h3 class="email-head">E-mail</h3>
             <a href="learn@gmail.com" class="email-text">learn@gmail.com</a>
         </div>
@@ -76,9 +81,7 @@
         <div class="chat">
             <h4>Get in Touch</h>
                 <h2>Lets Chat , Reach Out To Us</h2>
-                <h5>Want to get in touch? We'd love to hear from you. Here's how you can reach us... Fill The Below
-                    Details.
-                </h5>
+
                 <form>
                     <div class="inputbox">
                         <span class="text">First Name :</span><br>
@@ -96,8 +99,9 @@
                     </div>
 
                     <div class="inputbox">
-                        <span class="text">Write Your Message...</span><br>
-                        <input type="text" class="input-desc" required="required">
+                        <label for="text">Write Your Message...</label><br>
+                        <textarea id="text" class="input-desc  name=" freeform" rows="4" cols="50" required="required">
+                            </textarea>
                     </div>
 
                     <div class="inputbox">
@@ -111,11 +115,34 @@
                     </div>
                 </form>
 
-
+              
         </div>
     </div>
 
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
 
+            <div class="row">
+                <ul>
+                    <li><a href="../Pages/Contact.html">Contact us</a></li>
+                    <li><a href="../Pages/Services.html">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                Copyright © 2024 - All rights reserved
+            </div>
+        </div>
+    </footer>
 
 
 </body>

@@ -11,26 +11,41 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+nav span{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+nav span:hover{
+    color: #cadcfc;
+}
+
+.container .logo{
+    display: flex;
 }
 
 .review-form {
     display: block;
-    width: 300px;
-    height:800;
-    max-width: 500px;
-    margin: 10px auto;
+    width: 400px;
+    height:400px;
+    max-width: 100%;
+    margin: 20px auto;
     padding: 10px;
     background-color: #fff;
     border: 2px solid #ccc;
     border-radius: 8px;
-    max-height: 500px;
-    font-size: 10px;
+    font-size: 20px;
    
 }
 
 .review-form label {
     
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     color: #555;
 }
 
@@ -38,8 +53,8 @@ body {
 .review-form select,
 .review-form textarea {
     width: 100%;
-    padding: 2px;
-    margin-bottom: 8px;
+    padding: 5px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -47,7 +62,7 @@ body {
 .review-form button {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     background-color: #00246b ;
     color: white;
     border: none;
@@ -75,36 +90,39 @@ h1 {
     flex-direction: row;
     padding: 0 40px;
     margin:20px auto;
-    font-size: 10px;
+    font-size: 15px;
+    margin-bottom: px;
+    
 }
 .reviews {
     display: flex; 
     flex-wrap: wrap;
     gap: 15px;
-    margin: 20px 0;
     border-radius: 40px;
+   
+    
  }
  .reviews h2 {
      width: 100%;
      margin-top:0;
-     margin-bottom: 0px;
-     font-size: 24px;
+     margin-bottom: px;
+     font-size: 35px;
      text-align:left;
-     border-radius: 10px; 
+     
  }
 .review {
+    font-size: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 10px;
-    margin-top:150 px;
     box-sizing: border-box;
-    width:25em;
     border-radius: 10px;
     box-shadow: 5px 5px 25px #0000005f;
-    border-radius: 10px;
-    height: 13em;
+    height: 200px;
     position: relative;
-    display:inline-table;   
+    display:inline-table;
+    width:370px;
+    
 }
 .review h3 {
     margin: 0 0 10px;
@@ -170,7 +188,25 @@ nav ul li a:hover {
     .review {
         flex: 1 1 100%;
         padding: 3px;
-        width: 150px;
+        margin-top: 23px;
+        width: 150px;  
+    }
+    .review-container{
+       display: none;
+    } 
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
     }
 }
 /* normal device */
@@ -183,10 +219,12 @@ nav ul li a:hover {
         height: 30px;
         margin-left: 5px;
     }
+   
+
 }
 
 /* tablet device */
-@media screen and (min-width: 769px) and (max-width: 992px){
+@media screen and (min-width: 601px) and (max-width: 768px){
     nav ul li a {
         font-size: 15px;
         padding: 13px;

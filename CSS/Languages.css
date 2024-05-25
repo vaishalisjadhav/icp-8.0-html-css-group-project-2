@@ -73,6 +73,7 @@ nav {
       justify-content: center;
       background-color: white;
       border-radius: 6px;
+      margin-top: 20px;
       
       }
       
@@ -126,6 +127,8 @@ nav {
         
         .card-container{
           display:flex;
+          margin-left: 20px;
+          margin-top: 20px;
           justify-content: space-around;
           flex-wrap: wrap;
         }

@@ -1,3 +1,39 @@
+/*navbar*/
+nav {
+    background-color: #00246b;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-size: 15px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #0036b1;
+    border-radius: 7px;
+}
+/*review-form*/
 body {
     font-family: Arial, sans-serif;
     line-height: 1;
@@ -81,6 +117,7 @@ h1 {
 .review-form h2 {
     margin-top: 0;
 }
+/*student reviews*/
 .review-container {
     display: flex;
     flex-wrap:wrap;
@@ -124,8 +161,17 @@ h1 {
     width:370px;
     
 }
+.review:hover{
+    
+    border: 3px solid silver;
+    border-radius: 31px;
+    box-shadow: 0px 0px 40px 0px #0036b1;
+    transition-duration: 0.5s;
+}
+
 .review h3 {
     margin: 0 0 10px;
+    
 }
 
 .review p {
@@ -134,41 +180,6 @@ h1 {
 
 .rating {
     color: #f39c12;
-}
-/*navbar*/
-nav {
-    background-color: #00246b;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-.logo img {
-    height: 50px;
-    margin-left: 50px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    font-size: 15px;
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    background-color: #0036b1;
-    border-radius: 7px;
 }
 
 /* small device */

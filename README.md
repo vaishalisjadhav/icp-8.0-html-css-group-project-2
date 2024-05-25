@@ -1,6 +1,6 @@
-# Project Name : Online Language Learning Platform
+# Project Name : HELLOTALK
 ---
-### Welcome to the online **Language Learning Platfom!** This website is designed to offer a multilingual Open Educational Resource and language learning services,allowing learners to improve their language skills and cultural knowledge. They provide convinience ,flexibility and ability to connect with the native speakers , allowing learners to study at their own pace and their own schedule.This platform offer a wide range of resosurces and material , including videos , interactive exercise , practce tests, which can help learners to improve their language skills quickly and efficiently.
+### Welcome to the **HELLOTALK** .This website is designed to offer a multilingual Open Educational Resource and language learning services,allowing learners to improve their language skills and cultural knowledge. They provide convinience ,flexibility and ability to connect with the native speakers , allowing learners to study at their own pace and their own schedule.This platform offer a wide range of resosurces and material , including videos , interactive exercise , practce tests, which can help learners to improve their language skills quickly and efficiently.
 ---
 ### If you have any questions or suggetions please don't hesitate to reach out. Enjoy your visit! This project is simply made by HTML and CSS . Whether you are a beginner student to coding or development this repository will be your go to resources for HTML and CSS.
 ---

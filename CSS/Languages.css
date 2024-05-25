@@ -172,6 +172,24 @@ nav {
         }
     
 
+
+        nav span{
+          color: #fff;
+          font-size: 15px;
+          margin-top: 20px;
+          padding-left: 20px;
+          font-weight: bold;
+      }
+      nav span:hover{
+          color: #cadcfc;
+      }
+      
+      .container .logo{
+          display: flex;
+      }
+
+
+
         
 /* small device */
 @media screen and  (max-width: 600px){

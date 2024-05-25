@@ -1,71 +1,7 @@
-body{
-    background-color: #6dcffb;
-}
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #cadcfc;
-}
-
-nav {
-    background-color: #00246b;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-.logo img {
-    height: 50px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    font-size: 15px;
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    background-color: #0036b1;
-    border-radius: 7px;
-}
-nav span{
-    color: #fff;
-    font-size: 15px;
-    margin-top: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-}
-nav span:hover{
-    color: #cadcfc;
-}
-
-.container .logo{
-    display: flex;
-}
 .container{
     font-size: 20px;
     color: #00246b;
-    margin: 10px;
+   
 }
 .services{
     background-color: white;
@@ -76,6 +12,7 @@ nav span:hover{
     border: 2px solid silver;
     border-radius: 30px;
     margin: 20px;
+
 }
 .services:hover{
     height: 351px;
@@ -118,6 +55,7 @@ nav span:hover{
 }    
 /*big screen*/
 @media screen and (min-width: 1050px) {
+ 
     .cards{
         display: flex;
         flex-wrap: wrap;

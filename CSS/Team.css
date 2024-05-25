@@ -261,13 +261,17 @@ nav ul li a:hover {
 @media screen and (min-width: 300px) and (max-width: 650px) {
     .content-heading h2 {
         text-align: center;
-        font-size: 19px;
+        font-size: 22px;
         color: #00246b;
         padding-top: 15px;
     }
+    .content-desc{
+        display: flex;
+        flex-direction: column;
+    }
 
     .left-desc {
-        font-size: 18px;
+        font-size: 22px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: black;
         padding-left: 40px;
@@ -275,12 +279,13 @@ nav ul li a:hover {
     }
 
     .right-desc {
-        font-size: 9px;
+        font-size: 14px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: rgb(94, 91, 91);
         width: 70%;
         padding: 10px;
-        margin-right: 40px;
+        margin: 0 40px 0 40px;
+        text-align: center;
     }
 
     .card-container {
@@ -288,23 +293,23 @@ nav ul li a:hover {
     }
 
     .card {
-        margin-left: 80px;
+        margin-left: 65px;
     }
 
     nav ul li a {
         font-size: 8px;
         padding: 2px;
-        width: fit-content;
+        width:fit-content;
     }
 
     .logo img {
         height: 30px;
-        margin-left: 2px;
+        margin-left: 8px;
 
     }
     nav span {
         color: #fff;
-        font-size: 6px;
+        font-size: 7px;
         margin-top: 20px;
         padding-left: 5px;
         font-weight: bold;

@@ -1,3 +1,66 @@
+/* Navbar */
+nav {
+    background-color: #00246b;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: space-between; 
+}
+
+nav ul li {
+    margin: 0; 
+}
+
+nav ul li a {
+    font-size: 15px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #0036b1;
+    border-radius: 7px;
+}
+
+nav span {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+nav span:hover {
+    color: #cadcfc;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+.container .logo {
+    display: flex;
+}
+
+/* Review Form */
 body {
     font-family: Arial, sans-serif;
     line-height: 1;
@@ -6,33 +69,9 @@ body {
     background-color: #99ccff;
 }
 
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    margin-bottom: 50px;
-}
-
-nav span{
-    color: #fff;
-    font-size: 15px;
-    margin-top: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-}
-nav span:hover{
-    color: #cadcfc;
-}
-
-.container .logo{
-    display: flex;
-}
-
 .review-form {
     display: block;
     width: 400px;
-    height:400px;
     max-width: 100%;
     margin: 20px auto;
     padding: 10px;
@@ -40,11 +79,9 @@ nav span:hover{
     border: 2px solid #ccc;
     border-radius: 8px;
     font-size: 20px;
-   
 }
 
 .review-form label {
-    
     margin-bottom: 5px;
     color: #555;
 }
@@ -63,7 +100,7 @@ nav span:hover{
     display: block;
     width: 100%;
     padding: 15px;
-    background-color: #00246b ;
+    background-color: #00246b;
     color: white;
     border: none;
     border-radius: 4px;
@@ -71,45 +108,39 @@ nav span:hover{
 }
 
 .review-form button:hover {
-    background-color:#0036b1;
-}
-
-h1 {
-    margin: 0;
+    background-color: #0036b1;
 }
 
 .review-form h2 {
     margin-top: 0;
 }
+
+/* Student Reviews */
 .review-container {
     display: flex;
-    flex-wrap:wrap;
-    gap:20px;
-    height: 50vh;
+    flex-wrap: wrap;
+    gap: 20px; 
     align-items: center;
     flex-direction: row;
     padding: 0 40px;
-    margin:20px auto;
+    margin: 20px auto;
     font-size: 15px;
-    margin-bottom: px;
-    
 }
+
 .reviews {
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 150px;
     border-radius: 40px;
-   
-    
- }
- .reviews h2 {
-     width: 100%;
-     margin-top:0;
-     margin-bottom: px;
-     font-size: 35px;
-     text-align:left;
-     
- }
+}
+
+ .review-container h2 {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 35px;
+    text-align: left;
+}
+
 .review {
     font-size: 20px;
     background-color: #fff;
@@ -120,10 +151,19 @@ h1 {
     box-shadow: 5px 5px 25px #0000005f;
     height: 200px;
     position: relative;
-    display:inline-table;
-    width:370px;
-    
+    display: inline-table;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 25px;
 }
+
+.review:hover {
+    border: 3px solid silver;
+    border-radius: 31px;
+    box-shadow: 0px 0px 40px 0px #0036b1;
+    transition-duration: 0.5s;
+}
+
 .review h3 {
     margin: 0 0 10px;
 }
@@ -135,65 +175,94 @@ h1 {
 .rating {
     color: #f39c12;
 }
-/*navbar*/
-nav {
-    background-color: #00246b;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
 
-.logo img {
-    height: 50px;
-    margin-left: 50px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    font-size: 15px;
-    display: block;
-    color: #fff;
+/* Footer */
+.footer {
+    background: #00246b;
+    margin-top: 100px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 14px 16px;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: white;
+    font-size: 0.8em;
+}
+
+.footer .row a {
     text-decoration: none;
+    color: white;
+    transition: 0.5s;
 }
 
-nav ul li a:hover {
-    background-color: #0036b1;
-    border-radius: 7px;
+.footer .row a:hover {
+    color: grey;
 }
 
-/* small device */
-@media screen and (max-width: 600px) {
+.footer .row ul {
+    width: 100%;
+}
 
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+/* Small Device */
+@media screen and (max-width: 400px) {
+    /* Styles for small devices can go here */
+}
+
+/* Normal Device */
+@media screen and (min-width: 601px) and (max-width: 768px) {
     nav ul li a {
-        font-size: 6px;
-        padding: 6px;
+        font-size: 13px;
+        padding: 7px;
     }
+
     .logo img {
-        height: 25px;
+        height: 30px;
+        margin-left: 20px;
+    }
+}
+
+/* Tablet Device */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    nav ul li a {
+        font-size: 15px;
+        padding: 13px;
+    }
+
+    .logo img {
+        height: 40px;
         margin-left: 5px;
     }
-    .review-form{
-        width: 190px;
+}
+
+/* Large Device */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    nav ul li a {
+        font-size: 17px;
+        padding: 15px;
     }
-    .review {
-        flex: 1 1 100%;
-        padding: 3px;
-        margin-top: 23px;
-        width: 150px;  
+
+    .logo img {
+        height: 40px;
+        margin-left: 20px;
     }
-    .review-container{
-       display: none;
-    } 
+}
+
+/* Footer Responsive */
+@media (max-width: 720px) {
     .footer {
         text-align: left;
         padding: 5%;
@@ -209,98 +278,3 @@ nav ul li a:hover {
         margin: 0% 3%;
     }
 }
-/* normal device */
-@media screen and (min-width: 601px) and (max-width: 768px){
-    nav ul li a {
-        font-size: 13px;
-        padding: 7px;
-    }
-    .logo img{
-        height: 30px;
-        margin-left: 5px;
-    }
-   
-
-}
-
-/* tablet device */
-@media screen and (min-width: 601px) and (max-width: 768px){
-    nav ul li a {
-        font-size: 15px;
-        padding: 13px;
-    }
-    .logo img{
-        height: 40px;
-        margin-left: 5px;
-    }
-}
-
-/* large device */
-@media screen and (min-width: 993px) and (max-width: 1200px){
-    nav ul li a {
-        font-size: 17px;
-        padding: 15px;
-    }
-    .logo img{
-        height: 40px;
-        margin-left: 5px;
-    }
-}
-
-    .footer {
-        background: #00246b;
-        margin-top: 100px;
-        padding: 50px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-    }
-
-    
-    .footer .row {
-        width: 100%;
-        margin: 1% 0%;
-        padding: 0.6% 0%;
-        color: white;
-        font-size: 0.8em;
-    }
-    
-    .footer .row a {
-        text-decoration: none;
-        color: white;
-        transition: 0.5s;
-    }
-    
-    .footer .row a:hover {
-        color: grey;
-    }
-    
-    .footer .row ul {
-        width: 100%;
-    }
-    
-    .footer .row ul li {
-        display: inline-block;
-        margin: 0px 30px;
-    }
-    
-    .footer .row a i {
-        font-size: 2em;
-        margin: 0% 1%;
-    }
-    
-    @media (max-width:720px) {
-        .footer {
-            text-align: left;
-            padding: 5%;
-        }
-    
-        .footer .row ul li {
-            display: block;
-            margin: 10px 0px;
-            text-align: left;
-        }
-    
-        .footer .row a i {
-            margin: 0% 3%;
-        }
-    }

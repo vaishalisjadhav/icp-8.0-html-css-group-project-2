@@ -65,7 +65,14 @@
         padding: 5px;
     }
 }
-footer {
+/* .footer{
+    background-color: #;
+    margin-top: 100px;
+    padding: 90px;
+} */
+
+
+.footer {
     background: #00246b;
     margin-top: 100px;
     padding: 50px;
